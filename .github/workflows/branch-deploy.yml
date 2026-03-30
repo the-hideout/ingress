@@ -14,7 +14,9 @@ permissions:
 
 jobs:
   deploy:
-    environment: production-secrets
+    environment:
+      name: production
+      deployment: false # don't create a deployment in GitHub, we just want the environment protection rules and fetching secrets
     if: ${{ github.event.issue.pull_request }} # only run on pull request comments
     runs-on: ubuntu-latest
 
