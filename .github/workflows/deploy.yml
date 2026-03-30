@@ -38,5 +38,4 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
-          script_stop: true
           script: ~/${{ steps.repo_name.outputs.repo_name }}/script/deploy -r "main" -d "/home/${{ secrets.SSH_USERNAME }}/${{ steps.repo_name.outputs.repo_name }}"

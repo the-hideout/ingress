@@ -41,6 +41,8 @@ That keeps ingress, TDM, and cache independently deployable on the same VPS.
 
 The deploy script will ensure the shared `ingress` Docker network exists and then start the standalone Caddy stack.
 
+GitHub Actions deploy workflows also read their SSH and branch-deploy secrets from the `production` environment.
+
 ## Local Validation
 
 ```bash
