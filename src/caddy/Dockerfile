@@ -1,4 +1,4 @@
-FROM caddy/caddy:2.9.1-alpine@sha256:e2bd9b32c005ce8bf9b02d15317cf64c4210c3038bcbf46651904071b3694bf0
+FROM caddy/caddy:2.11.4-alpine@sha256:ef2ad799652965da62f0548e15e00ebcef221dd6f29623d3455df6273ca39f46
 
 # RUN apk add curl
 
