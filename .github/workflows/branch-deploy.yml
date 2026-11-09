@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: github/branch-deploy@ddf8ca48e9cdb2d2c7c71dee428308b19af9313f # pin@v11.1.4
+      - uses: github/branch-deploy@97edad089bbbe0c0ad13db7bf9ac085eaa47e255 # pin@v12.0.1
         id: branch-deploy
         with:
           admins: GrantBirki,Razzmatazzz
